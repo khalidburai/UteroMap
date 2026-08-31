@@ -30,13 +30,13 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 # CONFIGURATION & OUTPUT TREE
 # =============================================================================
 
-FILE_PATH = r"D:\Ph.D\First-Year\1st-Semester\Project\Infertility\Infertility_Analysis\NewCalculations\uteromap_EnglishCORRECT.csv"
+FILE_PATH = r"uteromap.csv"
 
 OUTPUT_DIR = os.path.dirname(FILE_PATH)
 
 LOG_FILE = os.path.join(
     OUTPUT_DIR,
-    "Phase2_ML_Console_Report_English.txt"
+    "Phase2_ML_Console_Report.txt"
 )
 
 
