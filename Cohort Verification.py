@@ -1,6 +1,5 @@
 # =============================================================================
 # SCRIPT 1: UTEROMAP COHORT VERIFICATION & FLOWCHART GENERATION
-# ENGLISH VERSION
 # =============================================================================
 
 import os
@@ -18,13 +17,13 @@ warnings.filterwarnings("ignore")
 # CONFIGURATION & OUTPUT TREE
 # =============================================================================
 
-FILE_PATH = r"D:\Ph.D\First-Year\1st-Semester\Project\Infertility\Infertility_Analysis\NewCalculations\uteromap_EnglishCORRECT.csv"
+FILE_PATH = r"uteromap.csv"
 
 OUTPUT_DIR = os.path.dirname(FILE_PATH)
 
 REPORT_FILE = os.path.join(
     OUTPUT_DIR,
-    "uteromap_cohort_verification_report_English.txt"
+    "uteromap_cohort_verification_report.txt"
 )
 
 
