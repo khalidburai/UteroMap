@@ -25,7 +25,7 @@ The repository is structured around a multi-phase machine learning and data vali
                                      │
                 ┌────────────────────┴────────────────────┐
                 ▼                                         ▼
-   Phase I: Complete Dataset                 Phase II: Extended Dataset
+   Phase I: Complete Dataset;                 Phase II: Extended Dataset
  (Complete UteroMap + Age + LMP)         (Complete UteroMap + Age; LMP omitted)
            (n = 527)                                   (n = 717)
                                                           │
