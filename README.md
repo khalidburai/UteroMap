@@ -14,34 +14,9 @@ If you use the dataset or code provided in this repository, please cite the offi
 
 The repository is structured around a multi-phase machine learning and data validation pipeline designed to test the analytical utility of standardized uterine morphometry (acquired via the **UteroMap** transvaginal ultrasound protocol) in assessing female infertility. 
 
-### Cohort Selection Flowchart
+## Cohort Selection Flowchart
 
-                              Total Assessed 
-                                 (N = 863)
-                                     │
-                                     ▼
-                         Classified Study Cohort 
-                                 (n = 817)
-                                     │
-                ┌────────────────────┴────────────────────┐
-                ▼                                         ▼
-   Phase I: Complete Dataset;                 Phase II: Extended Dataset
- (Complete UteroMap + Age + LMP)         (Complete UteroMap + Age; LMP omitted)
-           (n = 527)                                   (n = 717)
-                                                          │
-                                                          ▼
-                                             Phase III: Stratified Analysis
-                                             (Stratified Comparison Subgroups)
-                                                          │
-                                   ┌──────────────────────┴──────────────────────┐
-                                   ▼                                             ▼
-                         Primary Comparison                             Secondary Comparison
-                             (n = 387)                                      (n = 330)
-                                   │                                             │
-                   ┌───────────────┴───────────────┐             ┌───────────────┴───────────────┐
-                   ▼                               ▼             ▼                               ▼
-           Primary Infertility             Primary Control      Secondary Infertility           Secondary Control
-               (n = 199)                       (n = 188)            (n = 79)                        (n = 251)
+![Cohort Selection Flowchart](Code/Flowchart.png)
 
 
 ## Repository Structure & File Descriptions
